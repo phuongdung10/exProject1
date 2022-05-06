@@ -1,0 +1,19 @@
+.banner {
+    background-color: #C6E5F4;
+    height: 119px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 150%;
+}
+
+.shop1 {
+    margin-top: 15px;
+}
+
+.shop2 {
+    margin-top: 28px;
+    font-size: 48px;
+    margin-left: 20px;
+}
