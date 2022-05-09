@@ -15,7 +15,7 @@ import CartHeader from './components/CartHeader';
 function App() {
   return (
     <Switch>
-      <Route path='/login'>
+      <Route path='/'>
         <Login />
          <Route path='/shop'>
           <Shop />
