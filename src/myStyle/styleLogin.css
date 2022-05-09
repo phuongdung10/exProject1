@@ -1,14 +1,17 @@
 .login {
     background-color: #01aeef;
+}
+.login1 {
+    background-color: #01aeef;
     text-align: center;
 }
-
 .header {
     justify-content: center;
     display: flex;
 }
 
 .logo {
+    margin-right: 900px;
     width: 100px;
     height: 100px;
     border-radius: 50%;

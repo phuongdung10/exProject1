@@ -12,8 +12,9 @@
      font-weight: 400px;
  }
  .button{
-     width: 48px;
-     height: 48px;
+
+    width: 5px;
+    height: 5px;
  }
  .vl{
      border-left: 10px;
@@ -24,6 +25,6 @@
  }
  .len{
      width: 469px;
-     height: 61px
+     height: 61pxs
  }
  

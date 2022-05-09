@@ -33,16 +33,20 @@ function Shop(this: any) {
                 <h4>Shop</h4>
               </Col>
               <Col sm="6">
+              <div className="input-group input-group-sm mb-3">
+              <Input className="len" placeholder="Search..." />
+              <img src={url} />
+              <button onClick={() => window.location.assign("/filter")}> <img src={url1} /></button>
+
+                </div>
                 <InputGroup>
-                  <Input className="len" placeholder="Search..." />
-                  {/* <InputGroupAddon addonType="append"> */}
-                  <InputGroupText>
-                    <img className="button" src={url} />
+                
+                  
+                    {/* <img className="button" src={url} />
                     <button onClick={() => window.location.assign("/filter")}>
                       <img className="button" src={url1} />
-                    </button>
-                  </InputGroupText>
-                  {/* </InputGroupAddon> */}
+                    </button> */}
+
                 </InputGroup>
               </Col>
               {/* <Col>

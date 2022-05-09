@@ -9,9 +9,12 @@ import { BrowserRouter } from "react-router-dom";
 import store from "./components/store";
 
 ReactDOM.render(
+
+  <BrowserRouter>
   <Provider store={store}>
     <App />
-  </Provider>,
+  </Provider>
+  </BrowserRouter>,
   document.getElementById("root")
 );
 

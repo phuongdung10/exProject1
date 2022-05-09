@@ -49,7 +49,7 @@ export class MyShop extends Component<IState, IProps> {
                                         <img className="star" src={url1} />
                                       <br/>
                                         
-                                        <Button color="primary"  className="button">Mua ngay</Button>{' '}
+                                        <Button color="primary"  className="button">Mua ngay</Button>
                                         <Button color="success" className="button" onClick={() => this.props.AddCart(item)}>Thêm vào giỏ hàng</Button>
                                      
                                     </Col>
