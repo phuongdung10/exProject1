@@ -32,6 +32,12 @@ function App() {
       <Route path='/product'>
         <Product />
       </Route>
+      <Route path='/cart'>
+        <Cart />
+      </Route>
+      <Route path='/profile'>
+        <Profile />
+      </Route>
       {/* </Route> */}
 
 
