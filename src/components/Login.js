@@ -1,24 +1,12 @@
 import React from "react";
 import "../myStyle/styleLogin.css";
 import {
-  InputGroup,
-  InputGroupAddon,
-  InputGroupText,
-  Input,
-  Container,
   Col,
   Row,
   Form,
   FormGroup,
 } from "reactstrap";
-import {
-  BrowserRouter,
-  Route,
-  Router,
-  Link,
-  Switch,
-  useLocation,
-} from "react-router-dom";
+
 import Shop from "./Shop";
 
 let url1 = `${process.env.PUBLIC_URL}/assets/login2.svg`;
