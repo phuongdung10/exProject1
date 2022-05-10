@@ -35,8 +35,8 @@ function Shop(this: any) {
               <Col sm="6">
               <div className="input-group input-group-sm mb-3">
               <Input className="len" placeholder="Search..." />
-              <img src={url} />
-              <button onClick={() => window.location.assign("/filter")}> <img src={url1} /></button>
+              <img className="icon-search"src={url} />
+              <button onClick={() => window.location.assign("/filter")}> <img className="icon-search" src={url1} /></button>
 
                 </div>
                 <InputGroup>
