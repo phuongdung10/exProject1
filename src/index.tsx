@@ -10,7 +10,7 @@ import store from "./components/store";
 
 ReactDOM.render(
 
-  <BrowserRouter>
+  <BrowserRouter forceRefresh={true} >
   <Provider store={store}>
     <App />
   </Provider>
