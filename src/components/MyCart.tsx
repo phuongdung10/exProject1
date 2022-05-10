@@ -56,7 +56,8 @@ function MyCart({ items, IncreaseQuantity, DecreaseQuantity, DeleteCart }: { ite
 
                                         </td>
                                         <td>{TotalPrice(item.price, item.quantity)}
-                                        <span color="secondary" className = "delete" style={{cursor:"pointer"}} onClick={() => DeleteCart(key)}>X</span>
+                                        <span color="secondary" className = "delete" style={{cursor:"pointer"}} 
+                                        onClick={() => DeleteCart(key)}>X</span>
                                          </td>
                                     </tr>
                                 )
@@ -73,7 +74,7 @@ function MyCart({ items, IncreaseQuantity, DecreaseQuantity, DeleteCart }: { ite
                 </tr>
                 <tr>
                     <td>Tax</td>
-                    <td>{(1388000).toLocaleString('vi', { style: 'currency', currency: 'VND' })}</td>
+                    <td>{(1388000).toLocaleString('vi', { style:'currency', currency: 'VND' })}</td>
                 </tr>
                 <tr>
                     <td>Total</td>
