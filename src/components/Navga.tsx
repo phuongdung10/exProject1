@@ -36,13 +36,13 @@ const Navga = () => {
         {/* <Collapse isOpen={!collapsed} navbar> */}
           <Nav navbar>
             <NavItem>
-              <NavLink href="#"><img className='icon' src={url} />Shop</NavLink>
+              <NavLink href="/shop"><img className='icon-navga' src={url} />Shop</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#"><img className='icon' src={url1} />Cart</NavLink>
+              <NavLink href="/cart"><img className='icon-navga' src={url1} />Cart</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="#"><img className='icon' src={url2} />My Profile</NavLink>
+              <NavLink href="/profile"><img className='icon-navga' src={url2} />My Profile</NavLink>
             </NavItem>
           </Nav>
         {/* </Collapse> */}
