@@ -6,6 +6,7 @@ import Profile from "./components/Profile"
 import Product from './components/Product';
 import Filter from './components/Filter';
 import { Route, Switch} from 'react-router-dom';
+import CartArticulate from './components/CartArticulate';
 
 
 
@@ -13,13 +14,11 @@ import { Route, Switch} from 'react-router-dom';
 function App() {
   return (
     <Switch>
-      <Route
+   <Route
         path="/"
-        exact
+        exacts
         component={Login}
       />
-      {/* <Route path='/'>
-        <Login /> */}
       <Route path='/shop'>
         <Shop />
       </Route>
@@ -34,18 +33,11 @@ function App() {
       </Route>
       <Route path='/profile'>
         <Profile />
-      </Route>
-      {/* </Route> */}
-
-
-
-      {/* <Product /> */}
+      </Route> 
+      
+    
 
     </Switch>
-
-
-
-
 
   );
 }
