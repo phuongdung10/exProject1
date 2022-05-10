@@ -28,13 +28,13 @@ let url4 = `${process.env.PUBLIC_URL}/assets/login5.png`;
 
 function Login() {
   return (
-    <div className="login">
+    <div className="login-user">
       <div className="header">
         <div className="logo">
           <img className="logo1" src={url1} />
         </div>
       </div>
-      <div className="login1">
+      <div className="login1-user">
         <Form className="form">
           <div className="icon">
             <i>
