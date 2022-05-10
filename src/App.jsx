@@ -5,11 +5,8 @@ import Cart from "./components/Cart";
 import Profile from "./components/Profile"
 import Product from './components/Product';
 import Filter from './components/Filter';
-import { Route, Redirect, Switch, Link } from 'react-router-dom';
-import MyShop from './components/MyShop';
-import MyCart from './components/MyCart';
-import CartHeader from './components/CartHeader';
-import ProtectedRoute from './ProtectedRoute';
+import { Route, Switch} from 'react-router-dom';
+
 
 
 
