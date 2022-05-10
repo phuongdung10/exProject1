@@ -12,7 +12,7 @@ import { Route, Switch} from 'react-router-dom';
 function App() {
   return (
     <Switch>
-   <Route
+   {/* <Route
         path="/"
         exacts
         component={Login}
@@ -31,7 +31,8 @@ function App() {
       </Route>
       <Route path='/profile'>
         <Profile />
-      </Route> 
+      </Route>  */}
+      <Shop />
       
     
 
