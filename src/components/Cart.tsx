@@ -7,6 +7,7 @@ import Navga from "./Navga";
 
 
 
+
 function Cart(): JSX.Element {
    return (
       <Container className="themed-container" fluid={true}>
