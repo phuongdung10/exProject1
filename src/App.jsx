@@ -6,7 +6,7 @@ import Profile from "./components/Profile"
 import Product from './components/Product';
 import Filter from './components/Filter';
 import { Route, Redirect, Switch, Link } from 'react-router-dom';
-import CartArticulate from './components/CartArticulate';
+
 
 
 
