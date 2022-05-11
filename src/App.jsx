@@ -32,7 +32,7 @@ function App() {
         <Product />
       </Route>
       <Route path='/cart'>
-        <CartArticulate />
+        <Cart />
       </Route>
       <Route path='/profile'>
         <Profile />
