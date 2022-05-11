@@ -8,6 +8,7 @@ import Navga from "./Navga";
 
 function Product() {
   return (
+
       <Container className="themed-container" fluid={true}>
         <Header />
         <Row>
@@ -18,6 +19,8 @@ function Product() {
             <CartHeader />
             <MyShop />
             <MyCart />
+  
+
           </Col>
         </Row>
       </Container>
