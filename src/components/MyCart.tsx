@@ -78,7 +78,7 @@ function MyCart({ items, IncreaseQuantity, DecreaseQuantity, DeleteCart }: { ite
                 </tr>
                 <tr>
                     <td>Total</td>
-                    <td>{(Number(TotalCart) + 1388000).toLocaleString('vi', { style: 'currency', currency: 'VND' })} </td>
+                    <td>{(Number(TotalCart) + 1388000).toLocaleString('vi', { style: 'currency', currency: 'VND' })} '</td>
                 </tr>
                     </tbody>
                 </Table>
