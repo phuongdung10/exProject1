@@ -6,6 +6,7 @@ import {
   Form,
   FormGroup,
 } from "reactstrap";
+import {Link} from "react-router-dom"
 
 import Shop from "./Shop";
 
@@ -58,7 +59,10 @@ function Login() {
           </Col>
         </FormGroup>
         {/* <Link to={'/shop'} className="dis-accept">Đăng nhập</Link> */}
-        <button className="dis-accept" onClick={() => window.location.assign('/shop')}>Đăng nhập</button>
+        <Link to ='/shop' ><button className="dis-accept"> Đăng Nhập</button></Link>
+
+
+        {/* <button className="dis-accept" onClick={() => window.location.assign('/shop')}>Đăng nhập</button> */}
 
         <div className="dis-text">
           <p>
