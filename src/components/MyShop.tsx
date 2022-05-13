@@ -1,32 +1,39 @@
 import React, { Component } from 'react'
-import { actFetchProductsRequest, AddCart } from './actions'
+import { AddCart } from './actions'
 import { connect } from 'react-redux';
 import { Row, Col, Button } from 'reactstrap'
 import '../myStyle/styleMyShop.css'
+import {Link} from "react-router-dom";
+import { useNavigate } from 'react-router';
 
 let url = `${process.env.PUBLIC_URL}/assets/samsung.svg`;
 let url1 = `${process.env.PUBLIC_URL}/assets/star.png`;
 let url2 = `${process.env.PUBLIC_URL}/assets/pdetail.svg`;
 interface IState {
-    actFetchProductsRequest: any;
+    // actFetchProductsRequest: any;
     _products: any;
     AddCart: any;
 }
 interface IProps {
 }
+
+
+
 export class MyShop extends Component<IState, IProps> {
     constructor(props: IState) {
         super(props)
     }
 
-    componentDidMount() {
-        this.props.actFetchProductsRequest();
-    }
+    // componentDidMount() {
+    //     this.props.actFetchProductsRequest();
+    // }
     render() {
         const { _products } = this.props._products;
         <img src={url} />
         if (_products.length > 0) {
+           
             return (
+                
                 <Row>
                     <Col>
                         {
@@ -51,7 +58,8 @@ export class MyShop extends Component<IState, IProps> {
                                         
                                         <Button color="primary"  className="button">Mua ngay</Button>
                                         <Button color="success" className="button" onClick={() => this.props.AddCart(item)}>Thêm vào giỏ hàng</Button>
-                                     
+                                   {/* <Link to = "/cart"><Button color="success" 
+                                   className="button" onClick={() => this.props.AddCart(item)}>Thêm vào giỏ hàng</Button></Link>   */}
                                     </Col>
                                 </Row>
                             ))
@@ -62,7 +70,7 @@ export class MyShop extends Component<IState, IProps> {
         }
         return (
             <div className="row">
-                <h2>Loading...!</h2>
+                <h2>Loadigkrjgrng...!</h2>
             </div>
         )
 
@@ -75,7 +83,7 @@ const mapStateToProps = (state: any) => {
 }
 function mapDispatchToProps(dispatch: any) {
     return {
-        actFetchProductsRequest: () => dispatch(actFetchProductsRequest()),
+        // actFetchProductsRequest: () => dispatch(actFetchProductsRequest()),
         AddCart: (item: any) => dispatch(AddCart(item))
 
     }
